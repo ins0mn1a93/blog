@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 叁の小破站
+subtitle: 无聊且单调
+description: 没有什么可说的，要不你帮我想想？
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: ins0mn1a
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://60.205.235.170/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -101,4 +101,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/ins0mn1a93/blog.git
+  branch: master
